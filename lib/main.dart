@@ -1,4 +1,9 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
+
+const LatLng currentLocation = LatLng(-29.689991, -52.454678);
 
 void main() {
   runApp(const MyApp());
